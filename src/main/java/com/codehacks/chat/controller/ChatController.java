@@ -1,7 +1,6 @@
-package com.codehacks.chat;
+package com.codehacks.chat.controller;
 
 import com.codehacks.chat.model.ChatMessage;
-import org.springframework.context.event.EventListener;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
